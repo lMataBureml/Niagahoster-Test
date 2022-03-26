@@ -1,0 +1,106 @@
+// app global css in SCSS form
+@font-face {
+  font-family: Nunito SansBold;
+  src: url(./fonts/NunitoSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: Nunito SansSemi;
+  src: url(./fonts/NunitoSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Nunito SansNormal;
+  src: url(./fonts/NunitoSans-Regular.ttf);
+}
+
+.q-btn-dropdown--simple * + .q-btn-dropdown__arrow {
+  margin-left: 3px;
+}
+
+.q-btn .q-icon,
+.q-btn .q-spinner {
+  font-size: 1.5em;
+}
+
+#flip > div > div {
+  color: #fff;
+  // padding: 4px 12px;
+  // height: 45px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  display: inline-block;
+}
+
+#flip div:first-child {
+  animation: show 6s linear infinite;
+}
+
+#flip div div {
+}
+#flip div:first-child div {
+}
+#flip div:last-child div {
+}
+
+@keyframes show {
+  0% {
+    margin-top: -360px;
+  }
+  5% {
+    margin-top: -270px;
+  }
+  25% {
+    margin-top: -270px;
+  }
+  30% {
+    margin-top: -185px;
+  }
+  50% {
+    margin-top: -185px;
+  }
+  55% {
+    margin-top: -96px;
+  }
+  75% {
+    margin-top: -96px;
+  }
+  80% {
+    margin-top: -15px;
+  }
+  99.99% {
+    margin-top: -15px;
+  }
+  100% {
+    margin-top: -360px;
+  }
+}
+
+.PageOne:hover,
+.PageTwo:hover,
+.PageThree:hover,
+.PageThreen:hover {
+  background-color: #007aff;
+  color: white;
+  outline: #007aff solid 2px;
+}
+
+.PageOne:focus,
+.PageTwo:focus,
+.PageThree:focus,
+.PageThreen:focus {
+  background-color: #007aff;
+  color: white;
+  outline: #007aff solid 2px;
+}
+
+.PageOne:active,
+.PageTwo:active,
+.PageThree:active,
+.PageThreen:active {
+  background-color: #007aff;
+  color: white;
+  outline: #007aff solid 2px;
+}
